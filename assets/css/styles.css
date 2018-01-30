@@ -20,6 +20,8 @@ body {
 
 .page-title {
     font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.15rem 0;
 }
 
 ul {
@@ -68,6 +70,8 @@ header #branding {
 
 header #branding h1 {
     margin: 0;
+    font-size: 2.4rem;
+    font-weight: 700;
 }
 
 header nav {
@@ -126,6 +130,7 @@ header .change a:hover {
 #showcase h2 {
     position: relative;
     font-size: 2.5rem;
+    font-weight: 700;
     margin-top: 5vw;
     text-shadow: 2px 2px 4px #000000;
     z-index: 1;
@@ -136,10 +141,21 @@ header .change a:hover {
     width: 30%;
 }
 
+#sidebar h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.4rem 0;
+}
+
 #main-col {
     float: left;
     width: 65%;
     padding: 15px;
+}
+
+#main-col p {
+    padding-top: 0.05rem;
+    padding-bottom: 1.15rem;
 }
 
 #boxes .box {
@@ -147,10 +163,12 @@ header .change a:hover {
 }
 
 #portfolio {
-    padding: 1rem;
+    padding: 2.5rem;
     color: #ffffff;
     background-color: #333;
     text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 #boxes {
@@ -166,6 +184,16 @@ header .change a:hover {
     padding: 10px;
 }
 
+.box h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.4rem;
+}
+
+.box p {
+    padding-bottom: 1.2rem;
+}
+
 #main {
     background-image: url("../images/cork-wallet.png");
     background-repeat: repeat;
@@ -178,6 +206,12 @@ header .change a:hover {
     height: inherit;
     vertical-align: middle;
     margin-bottom: 1.5rem;
+}
+
+#contactArea h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.4rem 0;
 }
 
 #links {
@@ -202,11 +236,21 @@ header .change a:hover {
     text-align: center;
 }
 
+#portfolioBox h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.4rem 0;
+}
+
 footer {
     padding: 20px;
     color: #ffffff;
     background-color: #0299ad;
     text-align: center;
+}
+
+footer p {
+    padding: 1.2rem;
 }
 
 @media only screen and (max-width: 500px) {
